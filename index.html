@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Desenho Canvas - Projeto</title>
+    <script src="jquery.js"></script>
+    <script src="canvas.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+        canvas{
+            border: 1px solid #000;
+            display: block;
+        }
+
+
+    </style>
+
+<body>
+    <p id="res"></p>
+    <section>
+        <canvas id="formas" width="800px" height="500px"></canvas>
+    </section>
+    <section class="form">
+        <div class="drawType">
+            <p>Desenhar por: </p>
+            <div class="drawType-options">
+                <input class="radioGroup" type="radio" value="clique" name="drawChoice" id="clickon" checked>
+                <label for="clickon">Clique</label>
+                <input class="radioGroup" type="radio" value="slide" name="drawChoice" id="slideon">
+                <label for="slideon">Deslize do cursor</label>
+            </div>
+            <div class="colorInput">
+                <label for="color">Escolha a cor </label>
+                <input type="color" id="cor" name="cor" />
+            </div>
+            <div class="lineHeight">
+                <label for="lineH">Escolha a grossura da linha </label>
+                <input type="number" id="lineH" name="lineH"/>
+            </div>     
+        </div>       
+    </section>
+
+</body>
+
+</html>

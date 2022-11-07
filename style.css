@@ -1,0 +1,57 @@
+* {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+.form {
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    gap: 5;
+}
+
+.form input {
+   width: 60px;
+   height: 20px;
+
+}
+
+.form input[type=color] {
+    height: 28px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.drawType {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.drawType input[type=radio] {
+    display: flex;
+    
+}
+
+.drawType-options{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.lineHeight{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.colorInput {
+    /* flex: 2; */
+
+}
